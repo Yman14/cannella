@@ -1,0 +1,11 @@
+ <style>
+
+        body {
+        background-image: url("https://cdn.wallpapersafari.com/99/44/A3Vy7F.jpg");
+        background-position: center;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+}
+</style>

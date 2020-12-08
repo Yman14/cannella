@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>form</title>
+	
+
+<!-- My Css for page 2 -->
+<style>
+
+body {
+        background-image: url("wallpaper22.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        
+}
+
+
+
+.content {
+    margin: 0px 200px;
+}
+
+.content > .content__container > h3{
+    font-size: 30px;
+}
+
+
+.content > .content__container > p {
+    margin-bottom: 10px;
+    /* font-size: 20px; */ /*  */
+}
+
+
+	
+#respond {
+  margin-top: 100px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 70%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+input:required {
+  box-shadow: 4px 4px 10px rgba(200, 0, 0, 0.85);
+}
+
+</style>
+</head>
+<body>
+
+</div>
+
+<div id="respond">
+<div class="content">
+<div class="content__container">
+
+<h3><font color="orange">Payment Method</h3>
+
+<form action="end.html">
+<input type="radio" id="cash" name="method" value="cash">
+<label for="cash">Cash on delivery</label><br>
+
+<input type="radio" id="paymaya" name="method" value="paymaya">
+<label for="paymaya">Paymaya</label><br>
+
+<input type="radio" id="paypal" name="method" value="paypal">
+<label for="paypal">PayPal</label><br>
+
+<input type="radio" id="card" name="method" value="card">
+<label for="card">Debit Card</label><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
